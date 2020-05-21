@@ -1,0 +1,27 @@
+body{ /* Caracterização da tag "body", onde todos a página 
+	irá seguir as "ordens" ditas entre os parenteses*/
+	font-family: arial; /* Define a fonte da letra, neste caso para "arial"*/
+	background-color: lightgrey; /* Define a cor de fundo da página*/
+}
+
+.header{ /*/*Caracterização da classe ".header". Sempre que esta classe for chamada, irá obdecer ao que está dentro dos parenteses*/
+	text-align: center; /* Define o alinhamento do texto para o centro da página*/
+	color: blue; /* Define a cor de texto para azul*/
+	background-color: #3399ff;
+	padding: 30px; /* Serve para gerar espaço a volta do conteudo de um elemento*/
+}
+
+ul{ /* Caracterização da tag "ul", ou seja da lista*/
+	background-color: #cce5ff;
+	padding: 20px; /* Serve para gerar espaço a volta do conteudo de um elemento, neste caso da lista*/
+}
+
+li{ /* Caracterização da tag "li", ou seja dos elementos da lista*/ 
+	background-color: #3399ff;
+	padding: 5px;
+	margin: 5px; /* Define o espaço criado a volta da suposta borda invisivel*/
+}
+
+a{ /* Caracterização da tag "a"*/
+	color: blue;
+}
